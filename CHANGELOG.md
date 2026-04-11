@@ -2,7 +2,7 @@
 
 Alle wichtigen Änderungen werden hier dokumentiert.
 
-## [1.0.0] – 2026-04-11
+## [1.0.1] – 2026-04-12
 
 ### Hinzugefügt
 - Erstveröffentlichung
