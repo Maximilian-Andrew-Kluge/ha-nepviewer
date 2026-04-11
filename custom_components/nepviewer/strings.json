@@ -7,7 +7,7 @@
         "data": {
           "email": "E-Mail Adresse",
           "password": "Passwort",
-          "plant_id": "Anlagen-ID (z.B. DE_20260406_W2kE)"
+          "plant_id": "Anlagen-ID (z.B. DE_XXXXXXXX_XXXX)"
         }
       }
     },

@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Set up NEPViewer Solar",
-        "description": "Enter your NEPViewer login credentials. The Plant ID can be found in the URL on user.nepviewer.com (e.g. DE_20260406_W2kE).",
+        "description": "Enter your NEPViewer login credentials. The Plant ID can be found in the URL on user.nepviewer.com (e.g. DE_XXXXXXXX_XXXX).",
         "data": {
           "email": "E-Mail Address",
           "password": "Password",

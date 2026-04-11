@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "NEPViewer Solar einrichten",
-        "description": "Gib deine NEPViewer Login-Daten ein. Die Anlagen-ID findest du in der URL auf user.nepviewer.com (z.B. DE_20260406_W2kE).",
+        "description": "Gib deine NEPViewer Login-Daten ein. Die Anlagen-ID findest du in der URL auf user.nepviewer.com (z.B. DE_XXXXXXXX_XXXX).",
         "data": {
           "email": "E-Mail Adresse",
           "password": "Passwort",

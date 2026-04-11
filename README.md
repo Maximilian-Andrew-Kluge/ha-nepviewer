@@ -1,7 +1,7 @@
 # NEPViewer Solar – Home Assistant Integration
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
-[![GitHub Release](https://img.shields.io/github/release/YOUR_USERNAME/ha-nepviewer.svg)](https://github.com/YOUR_USERNAME/ha-nepviewer/releases)
+[![GitHub Release](https://img.shields.io/github/release/Maximilian-Andrew-Kluge/ha-nepviewer.svg)](https://github.com/Maximilian-Andrew-Kluge/ha-nepviewer/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Eine inoffizielle Custom Integration für [Home Assistant](https://www.home-assistant.io/), die Echtzeit-Solardaten von **NEP Mikro-Wechselrichtern** (auch: Anker SOLIX, NuaSol, Renesola u.a.) über die [NEPViewer Cloud](https://user.nepviewer.com) abruft.
@@ -61,7 +61,7 @@ Getestet mit folgenden Geräten / Marken (alle über NEPViewer):
 ### Option A – HACS (empfohlen)
 
 1. HACS öffnen → **Integrationen** → drei Punkte oben rechts → **Benutzerdefinierte Repositories**
-2. URL eingeben: `https://github.com/YOUR_USERNAME/ha-nepviewer`
+2. URL eingeben: `https://github.com/Maximilian-Andrew-Kluge/ha-nepviewer`
 3. Kategorie: **Integration** → **Hinzufügen**
 4. Integration suchen: „NEPViewer Solar" → **Herunterladen**
 5. Home Assistant **neu starten**
@@ -81,11 +81,11 @@ Getestet mit folgenden Geräten / Marken (alle über NEPViewer):
 3. Eingeben:
    - **E-Mail**: deine NEPViewer-Login-E-Mail
    - **Passwort**: dein NEPViewer-Passwort
-   - **Anlagen-ID**: steht in der URL auf `user.nepviewer.com`, z.B. `DE_20260406_W2kE`
+   - **Anlagen-ID**: steht in der URL auf `user.nepviewer.com`, z.B. `DE_XXXXXXXX_XXXX`
 
 Die Anlagen-ID findest du hier:
 ```
-https://user.nepviewer.com/pvPlant/detail?id=DE_20260406_W2kE
+https://user.nepviewer.com/pvPlant/detail?id=DE_XXXXXXXX_XXXX
                                                ^^^^^^^^^^^^^^^^
                                                das ist deine ID
 ```
