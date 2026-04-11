@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "NEPViewer Solar einrichten",
+        "description": "Gib deine NEPViewer Login-Daten ein. Die Anlagen-ID findest du in der URL auf user.nepviewer.com (z.B. DE_20260406_W2kE).",
+        "data": {
+          "email": "E-Mail Adresse",
+          "password": "Passwort",
+          "plant_id": "Anlagen-ID"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Ungültige Anmeldedaten – bitte prüfe E-Mail und Passwort.",
+      "cannot_connect": "Verbindung zu NEPViewer nicht möglich.",
+      "unknown": "Unbekannter Fehler."
+    },
+    "abort": {
+      "already_configured": "Diese Anlage ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "NEPViewer Optionen",
+        "data": {
+          "scan_interval": "Abfrageintervall (Sekunden)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install homeassistant --quiet
+          pip install pylint --quiet
+
+      - name: Check JSON files
+        run: |
+          for f in $(find . -name "*.json" -not -path "./.git/*"); do
+            echo "Checking $f"
+            python -m json.tool "$f" > /dev/null
+          done
+
+      - name: Lint Python
+        run: |
+          pylint custom_components/nepviewer/ \
+            --disable=C0114,C0115,C0116,R0903,W0212 \
+            --fail-under=7.0 || true

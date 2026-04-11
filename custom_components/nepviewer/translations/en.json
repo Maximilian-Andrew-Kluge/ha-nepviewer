@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up NEPViewer Solar",
+        "description": "Enter your NEPViewer login credentials. The Plant ID can be found in the URL on user.nepviewer.com (e.g. DE_20260406_W2kE).",
+        "data": {
+          "email": "E-Mail Address",
+          "password": "Password",
+          "plant_id": "Plant ID"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid credentials – please check your e-mail and password.",
+      "cannot_connect": "Cannot connect to NEPViewer.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This plant is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "NEPViewer Options",
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}
