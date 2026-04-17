@@ -2,6 +2,11 @@
 
 Alle wichtigen Änderungen werden hier dokumentiert.
 
+## [1.0.2] – 2026-04-17
+
+### Hinzugefügt
+- Integration Icons (icon.png, icon@2x.png, logo.png, logo@2x.png) für Home Assistant Brands
+
 ## [1.0.1] – 2026-04-12
 
 ### Hinzugefügt
