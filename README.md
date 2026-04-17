@@ -12,7 +12,12 @@ Eine inoffizielle Custom Integration für [Home Assistant](https://www.home-assi
 
 ## Screenshots
 
-<!-- Füge hier Screenshots deines Dashboards ein -->
+<table>
+  <tr>
+    <td><img src="docs/bild1.png" alt="Karten Übersicht" width="400"/></td>
+    <td><img src="docs/bild2.png" alt="Visuelle Konfiguration" width="400"/></td>
+  </tr>
+</table>
 
 ---
 
@@ -50,9 +55,6 @@ Eine inoffizielle Custom Integration für [Home Assistant](https://www.home-assi
 Getestet mit folgenden Geräten / Marken (alle über NEPViewer):
 
 - NEP BDM Mikro-Wechselrichter (z.B. BDM-600X)
-- Anker SOLIX (NEP-basiert)
-- NuaSol Nuawandler
-- Renesola (NEP-basiert)
 
 ---
 
@@ -107,7 +109,7 @@ entities:
   - entity: sensor.ertrag_diesen_monat
     name: Diesen Monat
   - entity: sensor.ertrag_dieses_jahr
-    name. Dieses Jahr
+    name: Dieses Jahr
   - entity: sensor.gesamtertrag
     name: Gesamt
 ```
