@@ -4,7 +4,7 @@
 [![GitHub Release](https://img.shields.io/github/release/Maximilian-Andrew-Kluge/ha-nepviewer.svg)](https://github.com/Maximilian-Andrew-Kluge/ha-nepviewer/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Eine inoffizielle Custom Integration für [Home Assistant](https://www.home-assistant.io/), die Echtzeit-Solardaten von **NEP Mikro-Wechselrichtern** (auch: Anker SOLIX, NuaSol, Renesola u.a.) über die [NEPViewer Cloud](https://user.nepviewer.com) abruft.
+Eine inoffizielle Custom Integration für [Home Assistant](https://www.home-assistant.io/), die Echtzeit-Solardaten von **NEP Mikro-Wechselrichtern** über die [NEPViewer Cloud](https://user.nepviewer.com) abruft.
 
 > **Hinweis:** Dies ist kein offizielles Produkt von Northern Electric & Power (NEP). Die Integration nutzt die inoffizielle NEPViewer Web-API.
 
